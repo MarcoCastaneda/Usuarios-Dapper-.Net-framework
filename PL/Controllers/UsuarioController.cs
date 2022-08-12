@@ -68,11 +68,11 @@ namespace PL.Controllers
 
 
 
-                    ViewBag.Mensaje = "El Libro se ha agregado";
+                    ViewBag.Mensaje = "El Usuario se ha agregado";
                 }
                 else
                 {
-                    ViewBag.Mensaje = "El Libro no se ha agregado";
+                    ViewBag.Mensaje = "El Usuario no se ha agregado";
                 }
             }
             else
@@ -81,7 +81,7 @@ namespace PL.Controllers
 
                 if (result.Correct)
                 {
-                    ViewBag.Mensaje = "El Libro se actualizo correctamente";
+                    ViewBag.Mensaje = "El Usuario se actualizo correctamente";
                 }
                 else
                 {
@@ -102,7 +102,7 @@ namespace PL.Controllers
 
             if (result.Correct)
             {
-                ViewBag.Mensaje = "El libro se ha eliminado";
+                ViewBag.Mensaje = "El Usuario se ha eliminado";
             }
             else
             {
